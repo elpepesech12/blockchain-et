@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Seguro Web3</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: #f0f2f5; padding: 40px; }
+        .container { background: white; padding: 30px; border-radius: 10px; max-width: 500px; margin: auto; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+        button { background-color: #007bff; color: white; border: none; padding: 10px 20px; margin: 10px; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        button:hover { background-color: #0056b3; }
+        button:disabled { background-color: #ccc; cursor: not-allowed; }
+        .btn-oraculo { background-color: #28a745; }
+        .btn-oraculo:hover { background-color: #218838; }
+        #statusMsg { margin-top: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>📦 Delivery Seguro</h1>
+        <p>Garantía de compra online descentralizada.</p>
+
+        <button id="btnConnect">Conectar MetaMask</button>
+        <p id="walletAddress" style="color: gray; font-size: 14px;">Wallet no conectada</p>
+
+        <div style="background: #e9ecef; padding: 15px; border-radius: 8px; margin-top: 20px;">
+            <button id="btnDepositar" disabled>1. Comprador: Depositar Pago</button><br>
+            <button id="btnConfirmar" class="btn-oraculo" disabled>2. Oráculo: Confirmar Entrega</button>
+        </div>
+
+        <p id="statusMsg"></p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
