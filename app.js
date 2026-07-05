@@ -1,6 +1,6 @@
 // 1. Configuración del Contrato
-// REEMPLAZA ESTO CON LA DIRECCIÓN DE TU CONTRATO ESCROW DE REMIX
-const contractAddress = "0xTU_DIRECCION_AQUI"; 
+
+const contractAddress = "Ingresar Dirección del Contrato Aquí";
 
 const contractABI = [
     "function depositarPago() public",
