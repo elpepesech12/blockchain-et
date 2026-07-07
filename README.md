@@ -19,4 +19,6 @@ Sistema de Escrow para comercio electrónico. Retiene el pago de una compra en u
 5. Cambiar a la cuenta del Oráculo en MetaMask y confirmar la entrega.
 
 
-*Se Realizo con ayuda de la IA Gemini en su version 3.1 Pro*
+DECLARACION USO IA
+*El presente contrato Se Realizo con la ayuda de la IA Gemini en su version 3.1 Pro*
+*Se usó como apoyo, mas no para el desarrollo completo del contrato*
